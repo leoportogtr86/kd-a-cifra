@@ -5,6 +5,8 @@ input{
     width: 150px;
     height: 30px;
     border-radius: 7px;
+    outline: none;
+    border: none;
 }
 
 input::placeholder{
