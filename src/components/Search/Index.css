@@ -1,0 +1,40 @@
+input{
+
+    background-color: #6272A4;
+    color: #dadfa5;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+input::placeholder{
+
+    color: #b8b9ae;
+    margin: auto;
+}
+
+button{
+
+    color: #F1FA8C;
+}
+
+.yellow{
+
+    color: #F1FA8C;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+pre{
+
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F1FA8C;
+
+    
+}
