@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./Index.css";
 import Axios from "axios";
+import Load from "../assets/img/load.svg";
 
-export default (props) => {
+export default props => {
   const [artista, setArtista] = useState("");
   const [musica, setMusica] = useState("");
   const [cifra, setCifra] = useState("Cifra...");
+  const [loadVisivel, setLoadVisivel] = useState('none')
 
   let queryArtista;
   let queryMusica;
@@ -28,18 +30,26 @@ export default (props) => {
   }
 
   function buscar() {
+
+    setLoadVisivel('inline')
     Axios.get(
       "https://pretty-cifra.herokuapp.com/?artista=" +
         artista +
         "&musica=" +
         musica
-    ).then((res) => {
+    ).then(res => {
       setCifra(res.data);
       console.log(res.data);
 
       console.log(queryArtista);
       console.log(queryMusica);
+      setLoadVisivel('none')
     });
+  }
+
+  let loadEstilo = {
+
+    display: loadVisivel
   }
 
   return (
@@ -80,12 +90,14 @@ export default (props) => {
           </div>
         </div>
 
+        <div className = 'text-center m-5'>
+          <img src={Load} className="load" alt="" style = {loadEstilo} />
+        </div>
+
         <div className="row text-center">
-          
           <div className="col-12 yellow">
             <pre>{cifra}</pre>
           </div>
-          
         </div>
       </div>
     </div>

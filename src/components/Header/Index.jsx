@@ -10,13 +10,13 @@ export default (props) => {
       <div className="bg-drac">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-1">
+            <div className="col-2 col-lg-1">
               <img src={Red} alt="" />
             </div>
-            <div className="col-1">
+            <div className="col-2 col-lg-1">
               <img src={Orange} alt=""/>
             </div>
-            <div className="col-1">
+            <div className="col-2 col-lg-1">
               <img src={Green} alt=""/>
             </div>
           </div>
