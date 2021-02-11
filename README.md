@@ -50,7 +50,10 @@ O objetivo da aplicação é fazer scrapping em um site de cifras musicais e tra
     npm start    
     
     
-    
+![](https://github.com/leoportogtr86/kd-a-cifra/blob/master/readme-imgs/Captura%20de%20tela%20de%202021-02-11%2010-07-09.png)
+![](https://github.com/leoportogtr86/kd-a-cifra/blob/master/readme-imgs/Captura%20de%20tela%20de%202021-02-11%2010-08-36.png)
+![](https://github.com/leoportogtr86/kd-a-cifra/blob/master/readme-imgs/Captura%20de%20tela%20de%202021-02-11%2010-08-40.png)
+![](https://github.com/leoportogtr86/kd-a-cifra/blob/master/readme-imgs/Captura%20de%20tela%20de%202021-02-11%2010-08-46.png)
     
     
     
