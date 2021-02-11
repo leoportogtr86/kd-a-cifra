@@ -10,12 +10,14 @@ input{
     -webkit-box-shadow: 0px 2px 102px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 102px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 102px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+
 }
 
 input::placeholder{
 
     color: #b8b9ae;
-    margin: auto;
+    padding: 20px;
 }
 
 button{

@@ -34,9 +34,9 @@ export default props => {
     setLoadVisivel('inline')
     Axios.get(
       "https://pretty-cifra.herokuapp.com/?artista=" +
-        artista +
-        "&musica=" +
-        musica
+      artista +
+      "&musica=" +
+      musica
     ).then(res => {
       setCifra(res.data);
       console.log(res.data);
@@ -51,6 +51,19 @@ export default props => {
 
     display: loadVisivel
   }
+
+
+  document.addEventListener('keypress', (e) => {
+
+    console.log(e)
+    if (e.key == "Enter") {
+
+      buscar()
+
+
+    }
+
+  })
 
   return (
     <div>
@@ -90,8 +103,8 @@ export default props => {
           </div>
         </div>
 
-        <div className = 'text-center m-5'>
-          <img src={Load} className="load" alt="" style = {loadEstilo} />
+        <div className='text-center m-5'>
+          <img src={Load} className="load" alt="" style={loadEstilo} />
         </div>
 
         <div className="row text-center">
