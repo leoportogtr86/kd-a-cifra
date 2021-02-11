@@ -29,6 +29,8 @@ O objetivo da aplicação é fazer scrapping em um site de cifras musicais e tra
 
 ## Instalação do backend
 
+1.Entrar na pasta backend
+
     npm install
     
 ### Rodando o backend
@@ -38,6 +40,8 @@ O objetivo da aplicação é fazer scrapping em um site de cifras musicais e tra
     
 
 ## Instalação do Frontend
+
+1.Entrar na pasta frontend
 
     npm install
     
