@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.516f8ffa.chunk.css",
+    "main.js": "/static/js/main.990b72b0.chunk.js",
+    "main.js.map": "/static/js/main.990b72b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f084343.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f084343.js.map",
+    "static/js/2.b15083e2.chunk.js": "/static/js/2.b15083e2.chunk.js",
+    "static/js/2.b15083e2.chunk.js.map": "/static/js/2.b15083e2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.46242ff7600c3babafe246b4ba6099f7.js": "/precache-manifest.46242ff7600c3babafe246b4ba6099f7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.516f8ffa.chunk.css.map": "/static/css/main.516f8ffa.chunk.css.map",
+    "static/js/2.b15083e2.chunk.js.LICENSE.txt": "/static/js/2.b15083e2.chunk.js.LICENSE.txt",
+    "static/media/Ellipse 1.svg": "/static/media/Ellipse 1.aefcbad8.svg",
+    "static/media/Ellipse 2.svg": "/static/media/Ellipse 2.0e48f617.svg",
+    "static/media/Ellipse 3.svg": "/static/media/Ellipse 3.9a5c2505.svg",
+    "static/media/load.svg": "/static/media/load.deffb8a0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f084343.js",
+    "static/js/2.b15083e2.chunk.js",
+    "static/css/main.516f8ffa.chunk.css",
+    "static/js/main.990b72b0.chunk.js"
+  ]
+}
